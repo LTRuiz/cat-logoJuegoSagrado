@@ -379,6 +379,63 @@ const PRODUCTS = [
     ]
   },
   {
+    id: 102015,
+    name: "CAMISETA BARCELONA 2015 TITULAR - RETRO",
+    category: "remera-retro",
+    price: "$55.000",
+    description: "Disponible talle M (Messi-10) entrega inmediata. Demás talles disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",  available: false  },
+      { label: "M",  available: false },
+      { label: "L",  available: false  },
+      { label: "XL", available: false  },
+    ],
+    players: [
+      {
+        name: "Messi",
+        number: "10",
+        price: "$55.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true },
+          { label: "L",  available: true },
+          { label: "XL", available: true },
+        ]
+      },
+      {
+        name: "Iniesta",
+        number: "8",
+        price: "$55.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true },
+          { label: "L",  available: true },
+          { label: "XL", available: true },
+        ]
+      },
+      {
+        name: "Suarez",
+        number: "9",
+        price: "$55.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true },
+          { label: "L",  available: true },
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+        ]
+      },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-04-04-at-18-01-37-3-788bd9d11908f065df17438015448115-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/20230811_140301-cc867b68b670a5fe7f17671019818539-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/20230811_140254-58396e852a5c2c5f7f17671019817312-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-06-26-at-10-11-42-1-f22dee469537d66a7717509440345301-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-17-at-10-54-184-ab2a19f41b40e4829317737558438591-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2024-05-19-at-20-25-34-3-dc917be3cdda3881e017161612475768-1024-1024.webp",
+    ],
+  },
+  {
     id: 41,
     name: "SHORT BARCELONA 25/26 SUPLENTE BEIGE - TELA JUGADOR",
     category: "short",
@@ -462,6 +519,52 @@ const PRODUCTS = [
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-20-at-12-14-561-8bde1cedc371ec75f917639069300442-640-0.jpg",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-20-at-12-14-562-d9c9a0c11783546f2617639069312112-640-0.jpg",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-20-at-12-14-563-f839d41cd4f71304ac17639069323527-640-0.jpg",
+    ]
+  },
+  {
+    id: 92025,
+    name: "SHORT MANCHESTER CITY 25/26 SUPLENTE - TELA JUGADOR",
+    category: "short",
+    price: "$50.000",
+    description: "Talle M disponible (Haaland-9) entrega inmediata. Demás talles disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: true },
+      { label: "M",   available: true },
+      { label: "L",   available: true },
+      { label: "XL",  available: true },
+      { label: "XXL", available: true },
+    ],
+    players: [
+      {
+        name: "Halaand",
+        number: "9",
+        price: "$50.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+        ]
+      },
+      {
+        name: "Foden",
+        number: "47",
+        price: "$50.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+        ]
+      },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/diseno-sin-titulo-a1a4e48a5ab1f68c5d17753244285498-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-04-04-at-12-51-54-2-64fadfc6754579c36d17753244287246-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-13-at-09-55-542-c9c6ddcac0c931b0ee17734065977696-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-13-at-09-55-544-605f79984fb5c487ce17734065972224-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-21-at-09-04-303-0c185ef86b0d0dd2ef17716754957191-640-0.webp",
     ]
   },
 ];
