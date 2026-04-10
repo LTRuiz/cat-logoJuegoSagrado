@@ -1144,5 +1144,33 @@ document.addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') { currentImgIdx = (currentImgIdx + 1) % activeProduct.images.length; updateGallery(); }
 });
 
+// ── Hamburguesa ──
+const hamburgerBtn = document.getElementById('hamburger-btn');
+const mobileMenu   = document.getElementById('mobile-menu');
+
+hamburgerBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  const isOpen = mobileMenu.classList.toggle('open');
+  hamburgerBtn.classList.toggle('open', isOpen);
+});
+
+mobileMenu.querySelectorAll('.mobile-filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    mobileMenu.querySelectorAll('.mobile-filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    mobileMenu.classList.remove('open');
+    hamburgerBtn.classList.remove('open');
+    currentFilter = btn.dataset.filter;
+    renderCatalog();
+  });
+});
+
+document.addEventListener('click', (e) => {
+  if (!hamburgerBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+    mobileMenu.classList.remove('open');
+    hamburgerBtn.classList.remove('open');
+  }
+});
+
 // ── Iniciar ──
 renderCatalog();

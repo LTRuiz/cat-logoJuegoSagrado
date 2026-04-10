@@ -17,9 +17,10 @@
       <img src="camisetasActuales/logoPNG.png" alt="logoPNG">
     </a>
   </div>
+
+  <!-- Filtros desktop -->
   <div class="nav-filters">
     <button class="filter-btn active" data-filter="all">Todo</button>
-
     <div class="dropdown" id="remera-dropdown">
       <button class="filter-btn" id="remera-toggle">
         Camisetas <i class="dropdown-toggle-arrow">▾</i>
@@ -29,10 +30,24 @@
         <button class="dropdown-item" data-filter="remera-retro">Retros</button>
       </div>
     </div>
-
     <button class="filter-btn" data-filter="short">Shorts</button>
   </div>
+
+  <!-- Botón hamburguesa (solo móvil) -->
+  <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menú">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 </nav>
+
+<!-- Menú móvil (fuera del nav para no quedar cortado) -->
+<div class="mobile-menu" id="mobile-menu">
+  <button class="mobile-filter-btn active" data-filter="all">Todo</button>
+  <button class="mobile-filter-btn" data-filter="remera-actual">Camisetas — Actuales</button>
+  <button class="mobile-filter-btn" data-filter="remera-retro">Camisetas — Retros</button>
+  <button class="mobile-filter-btn" data-filter="short">Shorts</button>
+</div>
 
 <!-- HERO -->
 <div class="hero">
@@ -50,23 +65,18 @@
 <div id="modal-overlay" role="dialog" aria-modal="true">
   <div class="modal" id="modal">
     <button class="modal-close" id="modal-close" title="Cerrar">✕</button>
-
     <div class="modal-gallery" id="modal-gallery">
       <img id="modal-main-img" src="" alt="" />
       <button class="gallery-arrow prev" id="prev-img">‹</button>
       <button class="gallery-arrow next" id="next-img">›</button>
       <div class="gallery-nav" id="gallery-dots"></div>
     </div>
-
     <div class="modal-info">
       <p class="modal-category" id="modal-cat"></p>
       <h2 class="modal-name" id="modal-name"></h2>
       <p class="modal-price" id="modal-price"></p>
       <p class="modal-desc" id="modal-desc"></p>
-
-      <!-- Sección jugadores (solo aparece en remeras con jugadores) -->
       <div id="modal-player-section" style="display:none"></div>
-
       <div>
         <p class="size-section-label">Elegí tu talle</p>
         <div class="size-grid" id="modal-sizes"></div>
@@ -81,23 +91,15 @@
       <img src="camisetasActuales/logoPNG.png" alt="Logo JuegoSagrado" class="footer-logo">
       <p>Prendas premium para los que viven el fútbol con pasión.</p>
     </div>
-
     <div class="footer-social">
       <h3>Seguinos</h3>
       <div class="social-icons">
-        <a href="#" target="_blank" aria-label="Instagram">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#" target="_blank" aria-label="WhatsApp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-        <a href="#" target="_blank" aria-label="TikTok">
-          <i class="fab fa-tiktok"></i>
-        </a>
+        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
       </div>
     </div>
   </div>
-  
   <div class="footer-bottom">
     <p>&copy; 2026 JuegoSagrado — Todos los derechos reservados.</p>
   </div>
