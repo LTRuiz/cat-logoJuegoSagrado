@@ -19,6 +19,7 @@
 //  Los shorts nunca tienen jugadores.
 // =============================================================
 
+
 const PRODUCTS = [
   {
     id: 1,
@@ -255,6 +256,121 @@ const PRODUCTS = [
     ]
   },
   {
+    id: 72025,
+    name: "CAMISETA NAPOLI 25/26 BLANCA - TELA JUGADOR",
+    category: "remera-actual",
+    price: "$50.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",  available: false },
+      { label: "M",  available: true  },
+      { label: "L",  available: true  },
+      { label: "XL", available: true },
+      { label: "XXL", available: false },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-30-at-15-46-13-09437c55a5dd4976ef17748964463934-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-30-at-15-46-13-1-ba301e3f1434d78ef317748964469251-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-30-at-15-46-13-2-c369d078fc7e2246ff17748964469497-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-30-at-15-46-13-4-9554684588129a0be517748964468739-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-30-at-15-46-13-3-e0bfe54981daa5d80f17748964465519-640-0.webp",
+    ]
+  },
+  {
+    id: 1111,
+    name: "CAMISETA BARCELONA 25/26 SUPLENTE BEIGE - TELA JUGADOR",
+    category: "remera-actual",
+    price: "$50.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",  available: true },
+      { label: "M",  available: true  },
+      { label: "L",  available: true  },
+      { label: "XL", available: true },
+      { label: "XXL", available: true },
+    ],
+    players: [
+      {
+        name: "Raphinha",
+        number: "11",
+        price: "$57.000",
+        sizes: [
+          { label: "S",  available: false },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+          { label: "XXXL", available: true },
+        ]
+      },
+      {
+        name: "Yamal",
+        number: "10",
+        price: "$57.000",
+        sizes: [
+          { label: "S",  available: false },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+          { label: "XXXL", available: true },
+        ]
+      },
+      {
+        name: "Pedri",
+        number: "8",
+        price: "$57.000",
+        sizes: [
+          { label: "XL", available: true },
+          { label: "XXL", available: false },
+          { label: "XXXL", available: true },
+        ]
+      },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-04-01-at-12-27-09-8de01add6770493d7a17750572442900-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-18-at-13-20-053-d6e83323335a406bbf17716822233393-640-0.jpg",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-18-at-13-20-052-38d3237ce4bff2c0de17716822222296-640-0.jpg",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/17736007575395a90dabee82a3cf1f83a873533282-7b4ce77e99463042a017747099636336-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-18-at-13-20-054-d202b7605cac6612c717634829491114-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-28-at-19-57-21-3cb2b318bb31f9894717643709028255-1024-1024.webp",
+    ]
+  },
+  {
+    id: 1112,
+    name: "CAMISETA LIVERPOOL 25/26 TITULAR - TELA JUGADOR",
+    category: "remera-actual",
+    price: "$50.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",  available: true },
+      { label: "M",  available: true  },
+      { label: "L",  available: true  },
+    ],
+    players: [
+      {
+        name: "Mac Allister",
+        number: "10",
+        price: "$57.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+        ]
+      },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-10-at-16-02-12-429a6c43f30aa51c2917731694154889-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-10-at-16-02-13-464a4fe6b3f0c6cd2317731694156026-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-10-at-16-02-131-15b6e73a33624dda2a17731694155101-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-10-at-16-02-141-34a4a9efbcea50dd5e17731694158690-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-10-at-16-02-14-2e3b8a82e11abf76f217731694159988-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-13-at-16-02-134-658563ed9ae0b093d917630606022821-640-0.webp",
+    ]
+  },
+  {
     id: 11,
     name: "CAMISETA TOTTENHAM 25/26 TITULAR - TELA JUGADOR",
     category: "remera-actual",
@@ -359,6 +475,11 @@ const PRODUCTS = [
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-30-at-15-45-12-3-979b3ac5cf01c2298717748963423698-640-0.webp",
     ]
   },
+
+  // ---------------------------------------------------------------------------------------------------------------------------------------------
+  // RETROS
+  // ---------------------------------------------------------------------------------------------------------------------------------------------
+
   {
     id: 8,
     name: "CAMISETA BOCA 2000 TITULAR - RETRO",
@@ -435,6 +556,29 @@ const PRODUCTS = [
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2024-05-19-at-20-25-34-3-dc917be3cdda3881e017161612475768-1024-1024.webp",
     ],
   },
+
+  // ---------------------------------------------------------------------------------------------------------------------------------------------
+  // SHORTS
+  // ---------------------------------------------------------------------------------------------------------------------------------------------
+
+  {
+    id: 4116,
+    name: "SHORT ARGENTINA 25/26 BLANCO - TELA JUGADOR",
+    category: "short",
+    price: "$55.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: true },
+      { label: "XL",  available: true },
+      { label: "XXL", available: true },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-20-at-16-45-351-113b5f49932d66ccae17716167716650-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-20-at-16-45-34-aef0acc6f3b1133da317716167717299-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-20-at-16-45-352-1a3a4e43081d0b6a2a17716167716242-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-20-at-16-45-35-86fab2e954630f324e17716167716877-640-0.webp",
+    ]
+  },
   {
     id: 41,
     name: "SHORT BARCELONA 25/26 SUPLENTE BEIGE - TELA JUGADOR",
@@ -463,10 +607,10 @@ const PRODUCTS = [
       },
     ],
     images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-06-at-13-08-372-a3c20378c05ed556f817703941877567-640-0.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-06-at-13-08-37-e00723cbca0764f1f817703941880236-1024-1024.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-06-at-13-08-371-69ed82f4bac164d9aa17703941879866-640-0.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-06-at-13-08-373-f0e30779bd9cfbe7eb17703941871736-640-0.webp",
-      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-06-at-13-08-372-a3c20378c05ed556f817703941877567-640-0.webp",
     ]
   },
   {
@@ -497,8 +641,8 @@ const PRODUCTS = [
       },
     ],
     images: [
-      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-25-at-13-35-34-c2b8c95a994665644317640889114413-1024-1024.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-25-at-13-35-342-2606ec03cd649c324817640889114738-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-25-at-13-35-34-c2b8c95a994665644317640889114413-1024-1024.webp",
     ]
   },
   {
@@ -515,9 +659,9 @@ const PRODUCTS = [
       { label: "XXL", available: false },
     ],
     images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-20-at-12-14-562-d9c9a0c11783546f2617639069312112-640-0.jpg",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-20-at-12-14-56-5c8a56e3ce2e48b50517639069285389-1024-1024.jpg",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-20-at-12-14-561-8bde1cedc371ec75f917639069300442-640-0.jpg",
-      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-20-at-12-14-562-d9c9a0c11783546f2617639069312112-640-0.jpg",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-20-at-12-14-563-f839d41cd4f71304ac17639069323527-640-0.jpg",
     ]
   },
@@ -560,11 +704,173 @@ const PRODUCTS = [
       },
     ],
     images: [
-      "https://acdn-us.mitiendanube.com/stores/905/531/products/diseno-sin-titulo-a1a4e48a5ab1f68c5d17753244285498-1024-1024.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-04-04-at-12-51-54-2-64fadfc6754579c36d17753244287246-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/diseno-sin-titulo-a1a4e48a5ab1f68c5d17753244285498-1024-1024.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-13-at-09-55-542-c9c6ddcac0c931b0ee17734065977696-640-0.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-13-at-09-55-544-605f79984fb5c487ce17734065972224-1024-1024.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-21-at-09-04-303-0c185ef86b0d0dd2ef17716754957191-640-0.webp",
+    ]
+  },
+  {
+    id: 4111,
+    name: "SHORT ATLETICO MADRID 25/26 TITULAR - TELA JUGADOR",
+    category: "short",
+    price: "$50.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: true },
+      { label: "M",   available: true },
+      { label: "L",   available: true },
+      { label: "XL",  available: true },
+      { label: "XXL", available: true },
+    ],
+    players: [
+      {
+        name: "Julian Alvarez",
+        number: "9",
+        price: "$50.000",
+        sizes: [
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+        ]
+      },
+      {
+        name: "Griezmann",
+        number: "7",
+        price: "$50.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+        ]
+      },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-01-08-at-13-03-04-c1d05410aa1cd117a117678882177110-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-01-08-at-13-03-03-4bfeddd1c62da6302d17678882177140-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-01-08-at-13-03-041-64795ba4dde190c79317678882181501-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-23-at-11-21-074-acf0475bbf0959421e17639076934172-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-28-at-17-05-24-1-ae640488769474994717747285038942-640-0.webp",
+    ]
+  },
+  {
+    id: 4112,
+    name: "SHORT ATLETICO MADRID 25/26 SUPLENTE - TELA JUGADOR",
+    category: "short",
+    price: "$50.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: true },
+      { label: "M",   available: true },
+      { label: "L",   available: true },
+      { label: "XL",  available: true },
+      { label: "XXL", available: true },
+    ],
+    players: [
+      {
+        name: "Julian Alvarez",
+        number: "9",
+        price: "$50.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+        ]
+      },
+      {
+        name: "Griezmann",
+        number: "7",
+        price: "$50.000",
+        sizes: [
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+        ]
+      },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-12-at-11-33-022-1db57fc206efa0853a17629581896752-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/diseno-sin-titulo-fca4970d68da9b33de17753156854618-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-04-04-at-12-11-02-1-b3351209726dfd58f117753156881908-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-12-at-11-33-02-76cf6235e0a65d248d17629581896751-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-21-at-08-38-11-2b4dbc8e3854e61f3017716755902194-1024-1024.webp",
+    ]
+  },
+  {
+    id: 4113,
+    name: "SHORT INTER 25/26 SUPLENTE - TELA JUGADOR",
+    category: "short",
+    price: "$50.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: true },
+      { label: "M",   available: true },
+      { label: "L",   available: true },
+      { label: "XL",  available: true },
+      { label: "XXL", available: true },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-01-10-at-13-28-43-6ad0d48eeefc0c0a1a17680628766960-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-01-10-at-13-28-44-adceccc12c5651392317680628766618-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-01-10-at-13-28-441-f93df5eeed17cccac417680628768016-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-01-10-at-13-28-442-8dd06e768ed30fde2317680628767203-640-0.webp",
+    ]
+  },
+  {
+    id: 4114,
+    name: "SHORT INTER 25/26 TITULAR - TELA JUGADOR",
+    category: "short",
+    price: "$50.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: true },
+      { label: "M",   available: true },
+      { label: "L",   available: true },
+      { label: "XL",  available: true },
+      { label: "XXL", available: true },
+    ],
+    players: [
+      {
+        name: "Lautaro Martinez",
+        number: "10",
+        price: "$50.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+        ]
+      },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-25-at-21-41-284-7a093072b5b27cc4b717720666275936-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-25-at-21-41-283-4285741075081d472a17720666272589-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-25-at-21-41-285-f4871197b47144194c17720666272050-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-18-at-12-04-41-1-8f35e66209210f979a17634784981481-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-18-at-12-04-40-c330b5ee5a513064cd17634784981707-1024-1024.webp",
+    ]
+  },
+  {
+    id: 4115,
+    name: "SHORT CHELSEA 25/26 SUPLENTE - TELA JUGADOR",
+    category: "short",
+    price: "$50.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: true },
+      { label: "M",   available: true },
+      { label: "L",   available: true },
+      { label: "XL",  available: true },
+      { label: "XXL", available: true },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-01-08-at-13-01-292-ae5645a337c0ace77617678881572959-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-01-08-at-13-01-291-1b3ab253310950bd6017678881573360-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-01-08-at-13-01-293-edd346aab3dd7c0c4817678881573155-640-0.webp",
     ]
   },
 ];
