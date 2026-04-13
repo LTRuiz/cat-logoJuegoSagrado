@@ -91,6 +91,28 @@ const PRODUCTS = [
     ]
   },
   {
+    id: 1115,
+    name: "CAMISETA RIVER 25/26 TITULAR MANGA LARGA - TELA JUGADOR",
+    category: "remera-actual",
+    price: "$60.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: true },
+      { label: "M",   available: true },
+      { label: "L",   available: true },
+      { label: "XL",  available: false },
+      { label: "XXL", available: true },
+      { label: "3XL", available: true },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-09-05-at-18-58-084-278e10d34acd80c6a317571680061361-1024-1024.jpg",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-09-05-at-18-58-085-fc6432f90907e67bcc17571680077124-640-0.jpg",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-09-05-at-18-58-086-9d0895edb655ee843f17571680087766-640-0.jpg",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-09-05-at-18-58-088-103e2ba01ddae4094517571680097766-640-0.jpg",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-09-05-at-18-58-087-e348e1d022d13847ed17571680108626-640-0.jpg",
+    ]
+  },
+  {
     id: 31,
     name: "CAMISETA BOCA 25/26 TITULAR - TELA JUGADOR",
     category: "remera-actual",
@@ -112,6 +134,28 @@ const PRODUCTS = [
     ]
   },
   {
+    id: 1116,
+    name: "CAMISETA BOCA 25/26 TITULAR MANGA LARGA - TELA JUGADOR",
+    category: "remera-actual",
+    price: "$60.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: false },
+      { label: "M",   available: true },
+      { label: "L",   available: false },
+      { label: "XL",  available: true },
+      { label: "XXL", available: true },
+      { label: "3XL", available: true },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-12-04-at-12-23-54-4-6a4201635c0f2a889d17648619908250-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-12-04-at-12-23-54-f77b814bc75f7e5fca17648619908401-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-12-04-at-12-23-54-2-90aedee83fa428b0f217648619908848-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-12-04-at-12-23-54-1-bea11f9b0e23f861e217648619908378-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-12-04-at-12-23-54-3-4d4a3c73567b9a06d017648619908879-640-0.webp",
+    ]
+  },
+  {
     id: 3,
     name: "CAMISETA RIVER 25/26 SUPLENTE - TELA JUGADOR",
     category: "remera-actual",
@@ -130,6 +174,28 @@ const PRODUCTS = [
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-23-at-16-21-452-c2d0231af6cb42059f17718748270492-640-0.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-03-at-19-07-201-fa0ed9e3ace2633dc517622077066752-640-0.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-23-at-16-21-453-0203a8263bf9e6addb17718748276307-640-0.webp",
+    ]
+  },
+  {
+    id: 1117,
+    name: "CAMISETA RIVER 25/26 SUPLENTE MANGA LARGA - TELA JUGADOR",
+    category: "remera-actual",
+    price: "$60.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: true },
+      { label: "M",   available: true },
+      { label: "L",   available: true },
+      { label: "XL",  available: true },
+      { label: "XXL", available: true },
+      { label: "3XL", available: true },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-09-at-14-26-44-9597495e813a46b60017730773540993-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-09-at-14-26-45-0fa96cfc67f0a98ad617730773542126-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-09-at-14-26-46-382e356408805e96e117730773541960-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-09-at-14-26-462-6935bbcfe6fb9da26017730773541073-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-09-at-14-26-461-9bea5e46c45d979c1017730773540422-640-0.webp",
     ]
   },
   {
@@ -172,6 +238,55 @@ const PRODUCTS = [
       "https://acdn-us.mitiendanube.com/stores/905/531/products/177358724075b446038b23dee57c76b0f8c8e5f838-0abfce366d4578d0e617750001241942-640-0.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/17735872402373e71b260784f1e53e0fc633b02ece-bbeba91a20dcec0b9b17750001240952-640-0.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/17735872409201862b6fa6753716077c226409dd4b-41e807fbc600f1e7b417750001241023-640-0.webp",
+    ]
+  },
+  {
+    id: 1120,
+    name: "CAMISETA ATLETICO DE MADRID 25/26 TITULAR - TELA JUGADOR",
+    category: "remera-actual",
+    price: "$50.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",  available: true },
+      { label: "M",  available: true  },
+      { label: "L",  available: true  },
+      { label: "XL", available: true },
+      { label: "XXL", available: true },
+    ],
+    players: [
+      {
+        name: "JULIAN ALVAREZ",
+        number: "19",
+        price: "$57.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+          { label: "3XL", available: true },
+        ]
+      },
+      {
+        name: "THIAGO ALMADA",
+        number: "11",
+        price: "$57.000",
+        sizes: [
+          { label: "S",  available: false },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+        ]
+      },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-04-06-at-15-47-14-fe645ddeb95b5805ed17755014382143-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-04-06-at-15-47-14-1-692c5a6435f756db0817755014382178-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-04-06-at-15-47-14-4-f259fe1a080811abff17755014383460-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-04-06-at-15-47-14-3-33fb1fd17736dc461417755014384059-640-0.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-25-at-13-35-344-edc4e0280a98eb3fc917640888721076-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-04-06-at-15-44-47-4825f20283a4408f3e17755011969741-1024-1024.webp",
     ]
   },
   {
@@ -368,6 +483,37 @@ const PRODUCTS = [
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-10-at-16-02-141-34a4a9efbcea50dd5e17731694158690-640-0.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-03-10-at-16-02-14-2e3b8a82e11abf76f217731694159988-640-0.webp",
       "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2025-11-13-at-16-02-134-658563ed9ae0b093d917630606022821-640-0.webp",
+    ]
+  },
+  {
+    id: 1118,
+    name: "CAMISETA BAYER LEVERKUSEN 25/26 TITULAR - TELA JUGADOR",
+    category: "remera-actual",
+    price: "$50.000",
+    description: "Disponible por encargo, llega en 10 días.",
+    sizes: [
+      { label: "S",   available: false },
+    ],
+    players: [
+      {
+        name: "Equi Fernandez",
+        number: "6",
+        price: "$57.000",
+        sizes: [
+          { label: "S",  available: true },
+          { label: "M",  available: true  },
+          { label: "L",  available: true  },
+          { label: "XL", available: true },
+          { label: "XXL", available: true },
+        ]
+      },
+    ],
+    images: [
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-04-01-at-12-33-01-b86c6eddb58f90e5a117750576108778-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-25-at-21-50-47-62fff5e5599aaf134817747356210372-640-0.jpg",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-25-at-21-50-471-a2a3af6cbec5b9ec2c17747356220696-640-0.jpg",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-25-at-21-50-472-9b2e61f97022607c2017747356231398-640-0.jpg",
+      "https://acdn-us.mitiendanube.com/stores/905/531/products/whatsapp-image-2026-02-25-at-21-50-473-9a804e84150add57f317747356242752-640-0.jpg",
     ]
   },
   {
